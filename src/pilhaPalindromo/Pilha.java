@@ -32,7 +32,7 @@ public class Pilha {
 	}
 	public void mostrar() {
         String printar = "";
-        for (int c = elementos; c >= 0; c--) {
+        for (int c = 0; c <= elementos; c++) {
             printar += pilha[c] + "  ";
         }
         JOptionPane.showMessageDialog(null,printar);
