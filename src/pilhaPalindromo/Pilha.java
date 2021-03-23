@@ -5,7 +5,6 @@ import javax.swing.JOptionPane;
 public class Pilha {
 	public Object[] pilha;
 	public int elementos;
-	public int aux;
 	
 	public Pilha() {
 		this.elementos = -1;
@@ -36,6 +35,13 @@ public class Pilha {
             printar += pilha[c] + "  ";
         }
         JOptionPane.showMessageDialog(null,printar);
+	}
+	public String palavras() {
+		String printar = "";
+		for(int c = 0; c<= elementos; c++) {
+			printar += pilha[c] + " ";
+		}
+		return printar;
 	}
 }
 
