@@ -2,7 +2,7 @@ package pilhaPalindromo;
 
 import pilhaPalindromo.Pilha;
 
-public class Principal{
+public class PrincipalPilha{
 
 	public static void main(String[] args){
 	
